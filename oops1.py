@@ -23,4 +23,5 @@ sam = Employee()
 # print(sam.designation)
 
 ## Calling a METHOD manually
-sam.travel("Monaco")
+# sam.travel("Monaco")
+print(type(sam))
