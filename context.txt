@@ -11,6 +11,23 @@
     > Code reusability
     > debugging
     > easy to colab
+    > You can also create attributes from outside the class.
+
+4. End to End Project named Chatbook (class)
+
+    > function vs method
+    > encapsulation - restricts direct access to some components, protecting the integrity of the data and ensuring proper usage
+        to hide, we use '__' after the attribute. for example self.__name = "Karan", it cannot be called by default way.
+        to call it, use _<class-name>__<attribute>. for example print(user1._chatbook__name).
+    > getter and setter - the method to get and set the hidden attributes
+    > static methods
+
+    > Inheritance
+        - Code example in `inherit.py`
+    * Why inheritance is needed? - code reusability -> parent has no access to child class
+    * What gets inherited? - Constructor, Non-private attributes (without encapsulation [i.e. __name {which is private}]), non-private methods
+
+    > Super keyword - can be used only inside class, can not access variables/attributes, used only inside child class
 
 
 
