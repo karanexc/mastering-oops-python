@@ -43,5 +43,5 @@ class Dog(Animal):
         print(f"{self.name} barks. It is a {self.breed}")
 
 ## Creating instance of a dog
-dog = Dog("Lab")
+dog = Dog("Lab ")
 dog.speak()
