@@ -1,0 +1,7 @@
+1. Class and Objects with examples
+    Class has data/attributes and functions/methods
+        > Attributes gets called itself, methods are called manually
+
+
+2. Why Python is called object-oriented programming?
+
